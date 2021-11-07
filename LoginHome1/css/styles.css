@@ -1,0 +1,27 @@
+.bg{
+  background: url('../images/wallpaper.png') no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+
+}
+
+.form-container{
+  position: absolute;
+  top: 15vh;
+  background: #ADC2A9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000;
+}
+.header-top{
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 678px) {
+  .bg{
+    background-size: 300%;
+  }
+}
